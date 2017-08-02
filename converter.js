@@ -1,5 +1,5 @@
-const data = require('./data');
+const data = require("./data");
 
-data.users.forEach((user) => {
+data.users.forEach(user => {
   console.log(JSON.stringify(user));
-})
+});

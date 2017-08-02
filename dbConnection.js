@@ -6,7 +6,7 @@ let client = {
 function connect(callback) {
   var MongoClient = require("mongodb").MongoClient;
   // Connection URL
-  const MONGO_DB = "robots"
+  const MONGO_DB = "robots";
   var url = `mongodb://localhost:27017/${MONGO_DB}`;
 
   // Use connect method to connect to the Server
